@@ -20,13 +20,12 @@ class ViewController: NSViewController, feedBack {
     
     let webViewController = WebViewController()  
     
-
-    
     func output() {
         myTextView.string = outputText
     }  // end func
 
     @IBOutlet var myTextView: NSTextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

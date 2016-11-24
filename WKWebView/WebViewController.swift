@@ -15,7 +15,7 @@ class WebViewController: NSViewController, WKUIDelegate, WKNavigationDelegate {
     
     var myWebView: WKWebView!
     
-    func output(item: AnyObject) {
+    func output(_ item: AnyObject) {
         outputText += "ScrollView : " + String(describing: item.scrollView)
         outputText += "Title : " + String(item.title)!      
         // print("URL : " + String(item.url)!) // crash
